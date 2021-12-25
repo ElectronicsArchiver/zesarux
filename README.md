@@ -1,4 +1,32 @@
-ZEsarUX - ZX Second-Emulator And Released for UniX 
+
+[Desktop Multitask]: Screenshots/Desktop/Multitask.png 'ZX Desktop'
+[Desktop Buttons]: Screenshots/Desktop/Buttons.png 'ZX Desktop Buttons'
+
+[Overscan]: Screenshots/Overscan.jpg 'Overscan Demo'
+
+[Mazongs]: Screenshots/Showcase/Mazogs.png 'Mazongs'
+[QL]: Screenshots/Showcase/QL.png 'Sinclair QL'
+[Z88]: Screenshots/Showcase/Z88.png 'Z88'
+[Sirfred Curses]: Screenshots/Showcase/Sirfred%20Curses.png 'Sirfred Curses'
+[Greatescape Curses]: Screenshots/Showcase/Greatescape%20Curses.png 'The Great Escape Curses'
+[Mazogs Curses]: Screenshots/Showcase/Mazogs%20Curses.png 'Mazongs Curses'
+[ZX Uno]: Screenshots/Showcase/ZX%20Uno.png 'ZX-Uno'
+[TSConf]: Screenshots/Showcase/TSConf.jpeg 'ZX-Evolution TSConf'
+[TBBLue]: Screenshots/Showcase/TBBLue.png 'TBBlue/ZX Spectrum Next'
+[Prism]: Screenshots/Showcase/Prism.png 'Prism 512'
+[Chloe280se]: Screenshots/Showcase/Chloe280se.png 'Chloe 280SE'
+[CPC]: Screenshots/Showcase/CPC.png 'CPC 464'
+[MSX]: Screenshots/Showcase/MSX.png 'MSX'
+[Coleco]: Screenshots/Showcase/Coleco.png 'Colecovision'
+[SG1000]: Screenshots/Showcase/SG1000.png 'Sega SG-1000'
+[SMS]: Screenshots/Showcase/SMS.png 'Sega Master System'
+
+
+[Previous Versions]: docs/Previous%20Versions.md
+
+<!----------------------------------------------------------------------------->
+
+ZEsarUX - ZX Second-Emulator And Released for UniX
 
 Created by Cesar Hernandez Bano
 
@@ -18,7 +46,7 @@ And also:
 
 * Timex TS 2068
 * Sam Coupe
-* Pentagon 
+* Pentagon
 * Chloe 140 SE, 280 SE
 * Chrome
 * Prism
@@ -28,13 +56,13 @@ And also:
 * ZX Spectrum Next
 * Jupiter Ace
 * Amstrad CPC 464, CPC 4128
-* MSX1 
+* MSX1
 * Spectravideo 318/328
 * Colecovision
 * Sega SG1000
 * Sega Master System
 
-ZEsarUX source code and binaries are distributed under GNU GPL license. 
+ZEsarUX source code and binaries are distributed under GNU GPL license.
 ZEsarUX also includes a folder, "my_soft", which has some programs and data made by me. The entire folder is also covered by the GNU GPL license.
 
 ZEsarUX also includes third-party roms, media, programs and games NOT covered by this license.
@@ -76,7 +104,7 @@ ZEsarUX has won the "Best Emulator" award from Retrogaming Total blog on 2015 an
 
 __DONATE__
 
-ZEsarUX is free software and you don't need to pay to use it. 
+ZEsarUX is free software and you don't need to pay to use it.
 ZEsarUX will always cost you nothing to use, but that doesn't mean it costs me nothing to make.
 So if you want to demonstrate your appreciation to it, you can donate using Paypal. Just click:
 
@@ -96,12 +124,12 @@ __FEATURES__
     * Science of Cambridge MK14
     * Sinclair ZX80
     * Sinclair ZX81
-    * Spectrum models: 16k, 48k (English and Spanish), Inves Spectrum +, Spectrum 128k (English and Spanish), Spectrum +2 (English, Spanish and French), Spectrum +2A (English and Spanish), Spectrum +3 (English and Spanish), Microdigital TK90X (Portuguese and Spanish), TK95 
+    * Spectrum models: 16k, 48k (English and Spanish), Inves Spectrum +, Spectrum 128k (English and Spanish), Spectrum +2 (English, Spanish and French), Spectrum +2A (English and Spanish), Spectrum +3 (English and Spanish), Microdigital TK90X (Portuguese and Spanish), TK95
     * Sinclair QL
     * Cambridge Z88
-    * Timex TS 2068 
+    * Timex TS 2068
     * Sam Coupe
-    * Pentagon 
+    * Pentagon
     * Chloe 140 SE, 280 SE
     * Chrome
     * Prism
@@ -111,7 +139,7 @@ __FEATURES__
     * ZX Spectrum Next
     * Jupiter Ace
     * Amstrad CPC 464, CPC 4128
-    * MSX1 
+    * MSX1
     * Spectravideo 318/328
     * Colecovision
     * Sega SG1000
@@ -161,7 +189,7 @@ __FEATURES__
 
 * Uses Video drivers: X-Windows, SDL, Cocoa (Mac OS X), Framebuffer, ncurses, aalib, cacalib, stdout(console), simpletext(console)
 
-* Uses Audio Drivers: PulseAudio, Alsa, SDL, DSP(OSS), PC Speaker, CoreAudio (Mac OS X). 
+* Uses Audio Drivers: PulseAudio, Alsa, SDL, DSP(OSS), PC Speaker, CoreAudio (Mac OS X).
 
 * Supports dumping audio & video to file
 
@@ -177,7 +205,7 @@ __FEATURES__
 
 * Handles cartridge formats: DCK, ROM, COL, SG
 
-* Handles RZX playback 
+* Handles RZX playback
 
 * Emulates Multiface One, 128 and Three
 
@@ -213,7 +241,7 @@ __FEATURES__
 
 * Handles compressed formats zip (with internal decompressor), and tar, rar, gz through external utilities
 
-* Emulates AY Audio Chip, Turbosound (2 AY Channels), 3 AY Channels, MIDI channels, different DAC: Specdrum, Covox, ACB/ABC/BAC/CBA Stereo 
+* Emulates AY Audio Chip, Turbosound (2 AY Channels), 3 AY Channels, MIDI channels, different DAC: Specdrum, Covox, ACB/ABC/BAC/CBA Stereo
 
 * Emulates General Sound
 
@@ -269,7 +297,7 @@ __FEATURES__
 
 * AY Mixer
 
-* Visual Real Tape: you have an audio render of your tape, see tape blocks and rewind or move forward the cassette player 
+* Visual Real Tape: you have an audio render of your tape, see tape blocks and rewind or move forward the cassette player
 
 * Supports ZEsarUX remote command protocol (ZRCP). This is a powerful communications protocol between a client and ZEsarUX, using a simple telnet client. One of the things you can do it is enhanced debugging on ZEsarUX from Visual Studio Code (see https://github.com/maziac/DeZog)
 
@@ -301,100 +329,101 @@ __Some screenshots__
 
 ZX Desktop, running multitask windows, on Solarized Dark GUI Style, running ZX Spectrum OverScan demo
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_zxdesktop_multitask.png "ZX Desktop")
+![Desktop Multitask]
 
 
 ZX Desktop, running demo ny17 from TSConf, showing new direct access buttons starting from ZEsarUX version 9.1
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_zxdesktop_buttons.png "ZX Desktop Buttons")
+
+![Desktop Buttons]
 
 
 ZX Spectrum Overscan demo
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_overscan.jpg "Overscan demo")
+![Overscan]
 
 
 ZX-81 Mazogs
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_mazogs.png "Mazogs")
+![Mazongs]
 
 
 Sinclair QL
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_ql.png "QL")
+![QL]
 
 
 Cambridge Z88
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_z88.png "Z88")
+![Z88]
 
 
 ZX Spectrum Sir Fred running on curses (text) driver
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_sirfred_curses.png "Sirfred curses")
+![Sirfred Curses]
 
 
 ZX Spectrum The Great Escape running on curses (text) driver + utf8 extensions
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_greatescape_curses.png "The Great Escape curses")
+![Greatescape Curses]
 
 
 ZX81 Mazogs running on curses (text) driver + utf8 extensions
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_mazogs_curses.png "Mazogs curses")
+![Mazogs Curses]
 
 
 ZX-Uno
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_zxuno.png "ZX-Uno")
+![ZX Uno]
 
 
 ZX-Evolution TSConf
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_tsconf.jpeg "ZX-Evolution TSConf")
+![TSConf]
 
 
 ZX Spectrum Next
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_tbblue.png "TBBlue/ZX Spectrum Next")
+![TBBLue]
 
 
 Prism 512
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_prism.png "Prism 512")
+![Prism]
 
 
 Chloe 280SE
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_chloe280se.png "Chloe 280SE")
+![Chloe280se]
 
 
 CPC 464
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_cpc.png "CPC 464")
+![CPC]
 
 
 MSX
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_msx.png "MSX")
+![MSX]
 
 
 Colecovision
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_coleco.png "Colecovision")
+![Coleco]
 
 
 Sega SG-1000
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_sg1000.png "Sega SG-1000")
+![SG1000]
 
 
 Sega Master System
 
-![alt text](https://github.com/chernandezba/zesarux/raw/master/screenshots/screenshot_sms.png "Sega Master System")
+![SMS]
 
 
 Do you want to know how ZEsarUX looked like in the past? See this:
-[PREVIOUS_SCREENSHOTS](https://github.com/chernandezba/zesarux/blob/master/PREVIOUS_SCREENSHOTS.md)
+[Previous Versions]
 
 
 You can find some ZEsarUX videos on my [Youtube channel](https://www.youtube.com/user/chernandezba)
