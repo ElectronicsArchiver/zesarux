@@ -1,22 +1,22 @@
 
-[0.1]: Screenshots/Versions/0.1.png
-[0.2]: Screenshots/Versions/0.2.png
-[0.3]: Screenshots/Versions/0.3.png
-[0.4]: Screenshots/Versions/0.4.png
-[0.5]: Screenshots/Versions/0.5.png
-[0.6]: Screenshots/Versions/0.6.png
-[1.0]: Screenshots/Versions/1.0.png
-[1.2]: Screenshots/Versions/1.2.png
-[2.0]: Screenshots/Versions/2.0.png
-[3.0]: Screenshots/Versions/3.0.png
-[4.0]: Screenshots/Versions/4.0.png
-[5.0]: Screenshots/Versions/5.0.png
-[6.0]: Screenshots/Versions/6.0.png
-[7.0]: Screenshots/Versions/7.0.png
-[8.0]: Screenshots/Versions/8.0.png
-[9.0]: Screenshots/Versions/9.0.png
-[10.0]: Screenshots/Versions/10.0.png
-[10.0 No Desktop]: Screenshots/Versions/10.0%20No%20ZXDesktop.png
+[0.1]: ../Screenshots/Versions/0.1.png
+[0.2]: ../Screenshots/Versions/0.2.png
+[0.3]: ../Screenshots/Versions/0.3.png
+[0.4]: ../Screenshots/Versions/0.4.png
+[0.5]: ../Screenshots/Versions/0.5.png
+[0.6]: ../Screenshots/Versions/0.6.png
+[1.0]: ../Screenshots/Versions/1.0.png
+[1.2]: ../Screenshots/Versions/1.2.png
+[2.0]: ../Screenshots/Versions/2.0.png
+[3.0]: ../Screenshots/Versions/3.0.png
+[4.0]: ../Screenshots/Versions/4.0.png
+[5.0]: ../Screenshots/Versions/5.0.png
+[6.0]: ../Screenshots/Versions/6.0.png
+[7.0]: ../Screenshots/Versions/7.0.png
+[8.0]: ../Screenshots/Versions/8.0.png
+[9.0]: ../Screenshots/Versions/9.0.png
+[10.0]: ../Screenshots/Versions/10.0.png
+[10.0 No Desktop]: ../Screenshots/Versions/10.0%20No%20ZXDesktop.png
 
 <!---------------------------------------------------------------------------->
 
